@@ -29,25 +29,17 @@ const Navigation = () => {
         <Navbar.Toggle aria-controls='responsive-navbar-nav' />
         <Navbar.Collapse id='responsive-navbar-nav'>
           <Nav className='ml-auto'>
-            <Nav.Link>
-              <Link className='navLink' to='/about'>
-                aboutMe
-              </Link>
+            <Nav.Link as={Link} className='navLink' to='/about'>
+              aboutMe
             </Nav.Link>
-            <Nav.Link>
-              <Link className='navLink' to='projects'>
-                projects
-              </Link>
+            <Nav.Link as={Link} className='navLink' to='projects'>
+              projects
             </Nav.Link>
-            <Nav.Link>
-              <Link className='navLink' to='github'>
-                gitHub
-              </Link>
+            <Nav.Link as={Link} className='navLink' to='github'>
+              gitHub
             </Nav.Link>
-            <Nav.Link>
-              <Link className='navLink' to='contact'>
-                contact
-              </Link>
+            <Nav.Link as={Link} className='navLink' to='contact'>
+              contact
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

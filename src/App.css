@@ -59,3 +59,16 @@ img {
   width: 90px;
   height: 90px;
 }
+
+.card {
+  /* height: 400px; */
+  position: relative;
+  padding: 2px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-end;
+  text-decoration: none;
+  border: 4px solid #1630c0;
+  margin-bottom: 20px;
+  margin: 30px;
+}

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Row, Col, Image } from 'react-bootstrap'
+import { Container, Row, Col } from 'react-bootstrap'
 
 const HeroPage = () => {
   return (
@@ -29,7 +29,7 @@ const HeroPage = () => {
             </p>
           </Col>
           <Col xs={0} md={4} className='mt-5'>
-            <img src='/media/profile_small.jpg' alt='image' />
+            <img src='/media/profile_small.jpg' alt='Profile' />
           </Col>
         </Row>
       </Container>
