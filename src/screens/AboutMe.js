@@ -31,7 +31,7 @@ const AboutMe = () => {
         </p>
         <span class='d-flex mt-3'>
           <a
-            class='cta-btn cta-btn--resume'
+            className='cta-btn cta-btn--resume'
             href='https://resume.io/r/OAvwuZqx6'
           >
             View Resume
