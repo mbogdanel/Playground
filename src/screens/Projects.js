@@ -1,12 +1,9 @@
 import React from 'react'
 import ProjectsList from '../components/ProjectsList'
-import projects from '../content/projects.js'
 
 const Projects = () => {
-  console.log(projects[0])
-
   return (
-    <div>
+    <div className='mt-5 ml-5 content-wrap'>
       <h1>Projects Page</h1>
 
       <ProjectsList />

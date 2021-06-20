@@ -7,11 +7,9 @@ const Navigation = () => {
   return (
     <>
       <Navbar
-        style={{ backgroundColor: 'rgba(0,0,0,0.4)' }}
         className='navigation'
         collapseOnSelect
         expand='sm'
-        // bg='dark'
         variant='dark'
       >
         <Navbar.Brand>

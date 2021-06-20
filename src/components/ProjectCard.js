@@ -1,15 +1,37 @@
 import React from 'react'
 import { Card, Button } from 'react-bootstrap'
 
-const ProjectCard = ({ name, description }) => {
+const ProjectCard = ({
+  name,
+  description,
+  liveLink,
+  gitHubLink,
+  pictureSrc,
+  videoLink,
+}) => {
   return (
     <div className='card' style={{ backgroundColor: 'rgba(0,0,0,0.4)' }}>
-      <Card className='card' style={{ width: '18rem' }}>
-        <Card.Img variant='top' src='holder.js/100px180' />
+      <Card
+        className='card'
+        style={{ width: '20rem', backgroundColor: 'rgba(0,0,0,0.4)' }}
+      >
+        <Card.Img variant='' src={pictureSrc} alt='projectPic' />
         <Card.Body>
-          <Card.Title>{name}</Card.Title>
-          <Card.Text>{description}</Card.Text>
-          <Button variant='primary'>Go somewhere</Button>
+          <Card.Title className='cardText'>{name}</Card.Title>
+          <Card.Text className='cardText'>{description}</Card.Text>
+          {liveLink && (
+            <Button className='cardButton' href={liveLink} variant='secondary'>
+              Live
+            </Button>
+          )}
+          {videoLink && (
+            <Button className='cardButton' href={videoLink} variant='secondary'>
+              Video
+            </Button>
+          )}
+          <Button className='cardButton' href={gitHubLink} variant='secondary'>
+            Source
+          </Button>
         </Card.Body>
       </Card>
     </div>
