@@ -49,7 +49,7 @@ const HeroPage = () => {
           </Col>
           <Col xs={0} md={6} className='mt-5'>
             <div align='center'>
-              <img src={profile4} alt='Profile' />
+              <img className='heroPicture' src={profile4} alt='Profile' />
             </div>
           </Col>
         </Row>

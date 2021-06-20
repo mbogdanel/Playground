@@ -92,3 +92,11 @@ img {
 .cardText {
   color: rgb(226, 225, 225);
 }
+
+.heroPicture {
+  vertical-align: middle;
+  width: 400px;
+  height: 400px;
+  box-shadow: 10px 10px 5px rgb(20, 19, 19) !important;
+  border: 5px solid;
+}

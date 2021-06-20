@@ -21,7 +21,7 @@ const ProjectsList = () => {
   const cardsArray = projects.map((project, i) => {
     console.log(project)
     return (
-      <div className='car-deck-wrapper'>
+      <div className='car-deck-wrapper mx-auto'>
         <div className='car-deck'>
           <ProjectCard
             key={i}
