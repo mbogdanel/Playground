@@ -19,12 +19,10 @@ const ProjectsList = () => {
     workorganiser,
   ]
   const cardsArray = projects.map((project, i) => {
-    console.log(project)
     return (
-      <div className='car-deck-wrapper mx-auto'>
-        <div className='car-deck'>
+      <div className='car-deck-wrapper mx-auto fluid' key={i}>
+        <div className='car-deck fluid'>
           <ProjectCard
-            key={i}
             name={projects[i].name}
             description={projects[i].description}
             liveLink={projects[i].liveLink}

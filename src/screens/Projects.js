@@ -3,8 +3,8 @@ import ProjectsList from '../components/ProjectsList'
 
 const Projects = () => {
   return (
-    <div className='mt-5 ml-5 content-wrap'>
-      <h1>Projects Page</h1>
+    <div align='center' className='fluid my-3 content-wrap'>
+      <h1 className='my-5'>Projects Page</h1>
 
       <ProjectsList />
     </div>

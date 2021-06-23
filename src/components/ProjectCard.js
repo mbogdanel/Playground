@@ -10,10 +10,10 @@ const ProjectCard = ({
   videoLink,
 }) => {
   return (
-    <div className='card' style={{ backgroundColor: 'rgba(0,0,0,0.4)' }}>
+    <div className='card fluid' style={{ backgroundColor: 'rgba(0,0,0,0.4)' }}>
       <Card
-        className='card'
-        style={{ width: '20rem', backgroundColor: 'rgba(0,0,0,0.4)' }}
+        className='card fluid'
+        style={{ width: '18rem', backgroundColor: 'rgba(0,0,0,0.4)' }}
       >
         <Card.Img variant='' src={pictureSrc} alt='projectPic' />
         <Card.Body>

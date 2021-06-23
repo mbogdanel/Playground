@@ -29,7 +29,7 @@ const AboutMe = () => {
           On my spare time I enjoy the outdoor activities, gardening and playing
           the blues.
         </p>
-        <span class='d-flex mt-3'>
+        <span className='d-flex mt-3'>
           <a
             className='cta-btn cta-btn--resume'
             href='https://resume.io/r/OAvwuZqx6'

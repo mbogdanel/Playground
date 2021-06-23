@@ -9,25 +9,7 @@ const HeroPage = () => {
       <Container>
         <Row>
           <Col xs={18} md={6} className='mt-5'>
-            <h2>Something here</h2>
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus
-              facilis quia mollitia quibusdam quisquam dicta ad dignissimos
-              nobis? Est sapiente suscipit cupiditate vitae aspernatur
-              temporibus magnam eos earum velit amet?
-            </p>
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus
-              facilis quia mollitia quibusdam quisquam dicta ad dignissimos
-              nobis? Est sapiente suscipit cupiditate vitae aspernatur
-              temporibus magnam eos earum velit amet?
-            </p>
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus
-              facilis quia mollitia quibusdam quisquam dicta ad dignissimos
-              nobis? Est sapiente suscipit cupiditate vitae aspernatur
-              temporibus magnam eos earum velit amet?
-            </p>
+            <h2>Welcome</h2>
             <p>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus
               facilis quia mollitia quibusdam quisquam dicta ad dignissimos
